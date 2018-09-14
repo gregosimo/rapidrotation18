@@ -257,7 +257,10 @@
     <script src="revealjs/js/reveal.js"></script>
     <script>
         Reveal.initialize({
-        center: false
+        center: false,
+        dependencies: [
+        { src: 'plugin/notes/notes.js', async: true}
+        ]
         });
     </script>
     </body>
